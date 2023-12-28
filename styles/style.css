@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-variation-settings: 'wght' var(--main-font-weight-normal);
-  inline-size: clamp(23.5rem, 16.344rem + 30.4511vw, 43.75rem);
+  /*inline-size: clamp(23.5rem, 16.344rem + 30.4511vw, 43.75rem);*/
 }
 
 .header {
@@ -121,6 +121,7 @@
   color: var(--main-text-color);
   background-color: var(--main-background-color);
   max-inline-size: 696px;
+  margin-inline: auto;
 }
 
 .card__title {
@@ -132,7 +133,7 @@
 
 .card__image-container {
   position: relative;
-  display: flex;
+  /*display: flex;*/
   border-block-start: var(--border-size) solid var(--main-text-color);
   border-block-end: var(--border-size) solid var(--main-text-color);
   overflow: hidden;
@@ -358,11 +359,11 @@
 }
 
 
-@media (width <= 375px) {
+@media (width < 376px) {
 
-  .page {
-    inline-size: 100%;
-  }
+  /*.page {*/
+  /*  inline-size: 100%;*/
+  /*}*/
 
   .header__title-accent {
     font-size: clamp(2.8125rem, 1.358rem + 7.2727vw, 3.0625rem);

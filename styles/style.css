@@ -7,7 +7,7 @@
   background-color: var(--main-background-color);
   background-image: repeating-linear-gradient(to right, var(--main-background-gradient-cell), var(--main-background-gradient-cell) 2px, transparent 2px, transparent 4px),
   repeating-linear-gradient(to bottom, var(--main-background-gradient-cell), var(--main-background-gradient-cell) 2px, transparent 2px, transparent 4px),
-  linear-gradient(var(--main-background-gradient-from), var(--main-background-gradient-to));
+  var(--main-background-gradient);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;

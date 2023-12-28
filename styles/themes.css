@@ -1,12 +1,10 @@
-
 :root.theme-dark {
   --main-font-weight-normal: 465;
-  --main-font-weight-bold: 700;
+  --main-font-weight-bold: 785;
   --main-text-color: #00cc14;
   --main-background-color: #000;
   --main-background-gradient-cell: #000;
-  --main-background-gradient-from: #007f0c;
-  --main-background-gradient-to: #004306;
+  --main-background-gradient: linear-gradient(to bottom, #007f0c, #004306);
   --stroke-color: #000;
   --mix-blend-color: #00cc14;
   --like-icon-contur: var(--main-text-color);
@@ -18,8 +16,7 @@
   --main-text-color: #000;
   --main-background-color: #fff;
   --main-background-gradient-cell: #d3d3d3;
-  --main-background-gradient-from: #e7e7e7;
-  --main-background-gradient-to: #1a1a1a;
+  --main-background-gradient: linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
   --stroke-color: #fff;
   --mix-blend-color: #fff;
   --like-icon-contur: var(--main-text-color);
@@ -29,12 +26,11 @@
 
   :root {
     --main-font-weight-normal: 465;
-    --main-font-weight-bold: 700;
+    --main-font-weight-bold: 785;
     --main-text-color: #00cc14;
     --main-background-color: #000;
     --main-background-gradient-cell: #000;
-    --main-background-gradient-from: #007f0c;
-    --main-background-gradient-to: #004306;
+    --main-background-gradient: linear-gradient(to bottom, #007f0c, #004306);
     --stroke-color: #000;
     --mix-blend-color: #00cc14;
     --like-icon-contur: var(--main-text-color);

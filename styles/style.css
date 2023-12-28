@@ -20,14 +20,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 25px;
+  gap: 20px;
   margin-inline: auto;
   margin-block-end: 100px;
   border: var(--border-size) solid var(--main-text-color);
   padding-block-start: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem);
   padding-block-end: 20px;
   color: var(--main-text-color);
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family), fantasy;
   font-weight: var(--accent-font-weight-normal);
   font-size: var(--small-font-size);
   font-style: normal;
@@ -37,12 +37,9 @@
 }
 
 .header__title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
   font-weight: var(--accent-font-weight-normal);
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  margin-block-end: 5px;
 }
 
 .header__title-accent {
@@ -142,7 +139,7 @@
   position: absolute;
   z-index: 1;
   opacity: 0.5;
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family), fantasy;
   font-size: var(--small-font-size);
   text-transform: uppercase;
   text-shadow: -1px 0 var(--stroke-color),
@@ -179,7 +176,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 12px;
+  gap: 5px;
 }
 
 .card__icon-button {
@@ -299,7 +296,7 @@
 }
 
 .save-dialog__text {
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family), fantasy;
   font-weight: 400;
   font-size: var(--small-font-size);
   font-style: normal;
@@ -311,6 +308,7 @@
 .save-dialog__button {
   padding: 9px 17px;
   block-size: 38px;
+  inline-size: 100%;
 }
 
 .button {
@@ -320,7 +318,7 @@
   align-items: center;
   border: var(--border-size) solid var(--main-text-color);
   color: var(--mix-blend-color);
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family), fantasy;
   font-size: var(--small-font-size);
   line-height: 0.9;
   background: var(--main-background-color);

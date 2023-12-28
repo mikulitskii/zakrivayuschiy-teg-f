@@ -15,7 +15,6 @@
   min-block-size: 100dvb;
   font-variation-settings: 'wght' var(--main-font-weight-normal);
   inline-size: clamp(23.5rem, 16.344rem + 30.4511vw, 43.75rem);
-  overflow-x: hidden;
 }
 
 .header {

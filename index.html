@@ -492,16 +492,16 @@
         <span class="button__text">Сохранить на память</span>
       </button>
     </footer>
+    <dialog class="save-dialog" id="save-dialog">
+      <div class="save-dialog__content">
+        <svg class="save-dialog__floppy-icon" fill="none" viewBox="0 0 21 21">
+          <use href="svg/floppy.svg#floppy"></use>
+        </svg>
+        <p class="save-dialog__text">Вставьте дискету, чтобы продолжить</p>
+      </div>
+      <button class="save-dialog__button button" onclick="window['save-dialog'].close()">
+        <span class="button__text">Ок</span></button>
+    </dialog>
     <script src="./scripts/like.js"></script>
   </body>
-  <dialog class="save-dialog" id="save-dialog">
-    <div class="save-dialog__content">
-      <svg class="save-dialog__floppy-icon" fill="none" viewBox="0 0 21 21">
-        <use href="svg/floppy.svg#floppy"></use>
-      </svg>
-      <p class="save-dialog__text">Вставьте дискету, чтобы продолжить</p>
-    </div>
-    <button class="save-dialog__button button" onclick="window['save-dialog'].close()">
-      <span class="button__text">Ок</span></button>
-  </dialog>
 </html>
